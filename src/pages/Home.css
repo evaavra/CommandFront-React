@@ -1,0 +1,15 @@
+#comtab{
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+#comtab{
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
